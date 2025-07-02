@@ -1,0 +1,29 @@
+# 🧭 AI Agent Pathfinding with A* in Pygame
+
+This Python project demonstrates an AI agent solving a maze using the A* pathfinding algorithm. Built with Pygame, it visualizes step-by-step traversal from a start to a goal cell in real time.
+
+## 🚀 Features
+
+- A* Algorithm implementation
+- Grid-based maze structure
+- Real-time agent movement visualization
+- Step-by-step console output
+
+## 📸 Demo
+
+![Maze Solver Screenshot](thumbnail.png)
+
+## 🧩 How It Works
+
+- The agent starts at the top-left cell (0, 0) and finds the shortest path to the bottom-right cell (9, 9).
+- Obstacles are represented by `1`s in the grid.
+- The path is shown in green, the agent in blue, and the goal in red.
+
+## 🧑‍💻 Requirements
+
+- Python 3.x
+- Pygame
+
+Install requirements using:
+```bash
+pip install pygame
